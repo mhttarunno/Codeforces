@@ -12,7 +12,7 @@ int32_t main() {
     ios_base::sync_with_stdio(0),
     cin.tie(0), 
     cout.tie(0);
-    
+    // Binary Search Implementation
     int a, b;
     cin >> a >> b;
     vector<int> v(a);
