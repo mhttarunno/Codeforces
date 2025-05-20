@@ -1,4 +1,7 @@
-// Problem: 
+/*
+    In the name of Allah, the Most Compassionate and the Most Benevolent.
+*/
+// Problem: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/Z
 // Handle: Mahfujul Tarunno
 #include <bits/stdc++.h>
 using namespace std;
