@@ -5,19 +5,8 @@
 // Handle: Mahfujul Tarunno
 #include <bits/stdc++.h>
 using namespace std;
-#define Implemented ios_base::sync_with_stdio(false);
-#define By cin.tie(0);
-#define Tarunno cout.tie(NULL);
-#define Z main
-#define all(a) a.begin(), a.end()
-#define allc(a, x) a.begin(), a.end(), x
-#define fll(x, a, b) for (int x = a; x < b; ++x)
-#define fl(a) for (auto &i : a)
-#define endl '\n'
 #define int long long
-#define pb push_back
-#define yes cout << "YES\n"
-#define no cout << "NO\n"
+#define endl "\n"
 
 void conquer() {
     int a, b;
@@ -29,9 +18,7 @@ void conquer() {
         cout << 2 * (b - x) << endl;
 }
 
-int32_t Z() {
-
-    Implemented By Tarunno
-
+int32_t main() {
+    ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     conquer();
 }
