@@ -9,9 +9,9 @@ using namespace std;
 #define endl "\n"
 
 void conquer() {
-    long long int a, b, c, d;
+    int a, b, c, d;
     cin >> a >> b >> c >> d;
-    long long int x = (a * b) - (c * d);
+    int x = (a * b) - (c * d);
     cout << "Difference = " << x << endl;
 }
 
