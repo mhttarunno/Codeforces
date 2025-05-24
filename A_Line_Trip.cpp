@@ -8,7 +8,7 @@ using namespace std;
 #define int long long
 #define endl "\n"
 
-void solve() {
+void conquer() {
     int n, x;
     cin >> n >> x;
     vector<int> v;
@@ -18,10 +18,8 @@ void solve() {
         cin >> a;
         v.push_back(a);
     }
-
     v.push_back(x);
     n = v.size();
-
     int diff = INT_MIN;
     for (int i = 1; i < n; ++i) {
         if (i == n - 1)
@@ -33,13 +31,9 @@ void solve() {
 }
 
 int32_t main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-
+    ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
     int t = 1;
     cin >> t;
     while (t--)
-    solve();
-    return 0;
+    conquer();
 }
