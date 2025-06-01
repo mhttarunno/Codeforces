@@ -20,8 +20,8 @@ void conquer() {
     else if(b > a) {
         cout << "Second" << endl;
     }
-    else {
-        if(c % 2) {
+    else { 
+        if(!(c & 1)) {
             cout << "First" << endl;
         }
         else {
