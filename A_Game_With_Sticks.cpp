@@ -18,10 +18,12 @@ void conquer() {
         i++;
         count++;
     }
-    if(!(count & 1)) 
+    if(!(count & 1)) {
         cout << "Akshat" << endl;
-    else 
+    }
+    else {
         cout << "Malvika" << endl;
+    }
 }
 
 int32_t main() {
