@@ -1,3 +1,8 @@
+/*
+    In the name of Allah, the Most Compassionate and the Most Benevolent.
+*/
+// Problem: https://codeforces.com/problemset/problem/1987/C
+// Handle: Mahfujul Tarunno
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
